@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Format SatSchedule
 class scheduleEvent {
     constructor(title, start, end, track) {
@@ -138,7 +137,6 @@ sunday.forEach(function(ev, index){
 
 });
 str += '</tbody>';
-=======
 // Format SatSchedule
 class scheduleEvent {
     constructor(title, start, end, track) {
@@ -278,5 +276,4 @@ sunday.forEach(function(ev, index){
 
 });
 str += '</tbody>';
->>>>>>> d9663272da97b8930ee18ab46eef64588b00d8c9
 window.document.getElementById("sundayContainer").innerHTML = str;
